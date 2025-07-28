@@ -1,80 +1,146 @@
-# Jewel D. Binueza Portfolio
+# 💼 Jewel D. Binueza Portfolio
 
-A clean, responsive, and minimal developer portfolio built using HTML, CSS, Bootstrap, and JavaScript, focused on clarity, accessibility, and modern user experience.
+A clean, responsive, and minimal developer portfolio built with **HTML**, **CSS**, **Bootstrap**, and **JavaScript**, focused on clarity, accessibility, and modern user experience.
 
 ---
 
 ## 🚀 Overview
 
-This portfolio showcases my background, skills, and sample works as a Computer Science graduate and aspiring web developer. It is designed with simplicity, responsiveness, and smooth user interaction in mind — using only semantic HTML, styled with modern CSS (including animations), and enhanced with JavaScript.
+This portfolio highlights my background, skills, and sample works as a **Computer Science graduate** and aspiring **web developer**. It's designed with:
+
+- ✨ Simplicity and responsiveness
+- 🧩 Smooth user interactions
+- 🧠 Semantic HTML
+- 🎨 Modern CSS (with transitions and keyframes)
+- ⚡ JavaScript enhancements
 
 ---
 
 ## ✨ Features
 
-- **Single Page Application (SPA)**: Seamless scrolling and navigation
-- **Responsive Design**: Optimized for all screen sizes – mobile, tablet, and desktop
-- **Accessible**: Semantic HTML structure with alt text and keyboard-friendly navigation
-- **Modern UI/UX**: Animated transitions, aesthetic layout, and clean color scheme
-- **Reusable Structure**: Sections like skills, education, and projects are easily editable
-- **Animated Components**: On-scroll animations using JavaScript
+- ✅ **Single Page Application (SPA)**: Seamless navigation through smooth scrolling
+- 📱 **Responsive Design**: Looks great on all screen sizes (mobile, tablet, desktop)
+- ♿ **Accessible**: Semantic HTML with alt texts and keyboard-friendly nav
+- 💅 **Modern UI/UX**: Animated components and clean, elegant layout
+- 🔄 **Reusable Structure**: Easy to update sections like Skills, Education, and Projects
+- 🎞️ **On-Scroll Animations**: Dynamic animations triggered as users scroll
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5** – Semantic markup
-- **CSS3** – Custom styles with variables, transitions, keyframes
-- **Bootstrap** – Responsive layout and components
-- **JavaScript (ES6)** – DOM interaction and animations
-- **jQuery** – DOM utilities and slider handling
-- **Slick Carousel** – Touch-friendly, responsive image slider
+- **HTML5** – Semantic structure and clean markup
+- **CSS3** – Custom styles, transitions, animations
+- **Bootstrap** – Grid system and responsive utilities
+- **JavaScript (ES6)** – Interaction handling and dynamic UI
+- **jQuery** – DOM manipulation and event helpers
+- **Slick Carousel** – Responsive slider for project galleries
 
 ---
 
 ## 📁 Project Structure
 
+```
+
 Jill-22/
-│
-├── index.html # Main HTML file
-├── README.md # Project overview and guide
+├── index.html         # Main portfolio page
+├── README.md          # Project overview and usage guide
 │
 ├── css/
-│ └── style.css # All site styling and responsive design
+│   └── style.css      # All custom styles
 │
 ├── js/
-│ └── script.js # Navigation toggling and animations
+│   └── script.js      # Scripts for nav toggle, animations, etc.
 │
 ├── assets/
-│ └── resume.pdf # Downloadable resume
-│ └── images/ # (Optional) Project/hero images, icons, etc.
+│   ├── resume.pdf     # Downloadable resume
+│   └── images/        # Hero, icons, project screenshots
+
+````
 
 ---
 
 ## 🖥️ Getting Started
 
-Clone this repo:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/jill-22/jill-22.github.io.git
+````
 
-git clone https://github.com/jill-22/jill-22.github.io.git
-Open index.html in your browser (no build step required).
-For full functionality (slider), ensure you have jQuery and Slick Carousel included in your HTML.
+2. **Open the project:**
+
+   * Navigate to the folder
+   * Open `index.html` in any browser (no build tools required)
+
+3. **Dependencies:**
+
+   * Ensure `jQuery` and `Slick Carousel` are included in your HTML for slider functionality
+
+---
+
+## 🧩 How to Add or Update Content
+
+You can easily modify the content by editing the `index.html` file. Here's a quick guide for common sections:
+
+### ➕ Add a New Project
+
+1. Find the `<!-- Project Card -->` section inside the `#projects` section.
+2. Copy one `.project-card` block and paste below the last one.
+3. Update:
+
+   * Image(s) path inside `<img src="...">`
+   * Project title and description
+   * (Optional) Add project link buttons
+
+```html
+<div class="project-card">
+  <div class="carousel-container">
+    <div class="carousel">
+      <img src="assets/images/my-new-project.png" class="carousel-img" />
+    </div>
+  </div>
+  <h3 class="project-title">My New Project</h3>
+  <p class="project-description">A brief description of the project.</p>
+</div>
+```
+
+### 🧑‍🎓 Add Education or Skills
+
+* **Education**: Look for the `.education-list` inside the `#education` section
+* **Skills**: Locate the `.skills-icons` or `.skills-list` and add `<li>` or icons
+
+```html
+<!-- Education Example -->
+<div class="education-item">
+  <span class="edu-icon">🎓</span>
+  <p>New Certificate – Year</p>
+</div>
+
+<!-- Skill Example -->
+<li><i class="fab fa-python"></i> Python</li>
+```
+
+### 📞 Update Contact Info
+
+Edit the content inside the `#contact` section at the bottom of the `index.html` file.
 
 ---
 
 ## 🌐 Live Demo
-🔗 https://jill-22.github.io
+
+🔗 [https://jill-22.github.io](https://jill-22.github.io)
 
 ---
 
 ## 👤 Author
-Jewel D. Binueza
-Ormoc City, Philippines
-📧 binuezajewel@gmail.com
-🌐 GitHub Profile
 
-📝 License
-This project is open-source and free to use as inspiration for personal portfolios. Please give credit if you fork or adapt major elements.
+**Jewel D. Binueza**
+📍 Ormoc City, Philippines
+📧 [binuezajewel@gmail.com](mailto:binuezajewel@gmail.com)
+🌐 [GitHub Profile](https://github.com/jill-22)
 
-yaml
-Copy
-Edit
+---
+
+## 📝 License
+
+This project is open-source and available for personal use and inspiration. If you fork or adapt major sections, credit is appreciated.
