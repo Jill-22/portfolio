@@ -23,8 +23,7 @@ This portfolio showcases my background, skills, and sample works as a Computer S
 
 ## 🛠️ Tech Stack
 
-HTML5 (semantic, accessible)
-CSS3 (variables, BEM, Grid/Flexbox, transitions, keyframes)
-JavaScript (ES6+) (modules, classes, async/await)
-jQuery & Slick Carousel (for project sliders)
-Bootstrap (UI components)
+- **HTML5** – Semantic markup
+- **CSS3** – Custom styles with variables, transitions, keyframes
+- **Bootstrap** – Responsive grid and UI components
+- **JavaScript (ES6)** – DOM interaction and animations
