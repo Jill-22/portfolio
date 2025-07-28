@@ -39,21 +39,14 @@ This portfolio highlights my background, skills, and sample works as a **Compute
 ---
 
 ## 📁 Project Structure
-
-Jill-22/
-├── index.html # Main portfolio page
-├── README.md # Project overview and usage guide
-│
-├── css/
-│ └── style.css # All custom styles
-│
-├── js/
-│ └── script.js # Scripts for nav toggle, animations, etc.
-│
-├── assets/
-│ ├── resume.pdf # Downloadable resume
-│ └── images/ # Hero, icons, project screenshots
-
+ ``` 
+Portfolio/
+  css/           # Modular CSS for each section
+  js/            # Modular JS views and templates
+  assets/        # Images, icons, resume, and other assets
+  index.html     # Main HTML file
+  README.md      # This file
+ ``` 
 ---
 
 ## 🖥️ Getting Started
