@@ -40,23 +40,19 @@ This portfolio highlights my background, skills, and sample works as a **Compute
 
 ## 📁 Project Structure
 
-```
-
 Jill-22/
-├── index.html         # Main portfolio page
-├── README.md          # Project overview and usage guide
+├── index.html # Main portfolio page
+├── README.md # Project overview and usage guide
 │
 ├── css/
-│   └── style.css      # All custom styles
+│ └── style.css # All custom styles
 │
 ├── js/
-│   └── script.js      # Scripts for nav toggle, animations, etc.
+│ └── script.js # Scripts for nav toggle, animations, etc.
 │
 ├── assets/
-│   ├── resume.pdf     # Downloadable resume
-│   └── images/        # Hero, icons, project screenshots
-
-````
+│ ├── resume.pdf # Downloadable resume
+│ └── images/ # Hero, icons, project screenshots
 
 ---
 
@@ -65,16 +61,15 @@ Jill-22/
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/jill-22/jill-22.github.io.git
-````
+Open the project:
 
-2. **Open the project:**
+Navigate to the folder
 
-   * Navigate to the folder
-   * Open `index.html` in any browser (no build tools required)
+Open index.html in any browser (no build tools required)
 
-3. **Dependencies:**
+Dependencies:
 
-   * Ensure `jQuery` and `Slick Carousel` are included in your HTML for slider functionality
+Ensure jQuery and Slick Carousel are included in your HTML for slider functionality
 
 ---
 
@@ -143,4 +138,5 @@ Edit the content inside the `#contact` section at the bottom of the `index.html`
 
 ## 📝 License
 
-This project is open-source and available for personal use and inspiration. If you fork or adapt major sections, credit is appreciated.
+This project is open-source and available for personal use and inspiration.
+If you fork or adapt major sections, **credit is appreciated**.
