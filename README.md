@@ -116,7 +116,7 @@ Edit the content inside the `#contact` section at the bottom of the `index.html`
 
 ## 🌐 Live Demo
 
-🔗 [https://jill-22.github.io](https://jill-22.github.io)
+🔗 [[https://jill-22.github.io](https://jill-22.github.io)](https://jill-22.github.io/portfolio/)
 
 ---
 
