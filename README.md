@@ -55,17 +55,18 @@ Jill-22/
 
 Clone this repo:
 
-```bash
 git clone https://github.com/jill-22/jill-22.github.io.git
 Open index.html in your browser (no build step required).
 For full functionality (slider), ensure you have jQuery and Slick Carousel included in your HTML.
 
 ---
 
-🌐 Live Demo
+## 🌐 Live Demo
 🔗 https://jill-22.github.io
 
-👤 Author
+---
+
+## 👤 Author
 Jewel D. Binueza
 Ormoc City, Philippines
 📧 binuezajewel@gmail.com
